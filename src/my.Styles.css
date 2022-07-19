@@ -1,0 +1,36 @@
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#password,#email,#name {
+    margin: 30px 0;
+    border: 0 ;
+    border-bottom: 2px solid green;
+}
+
+input {
+    margin: 10px;
+}
+
+#form {
+    border: 2px solid rgb(50, 52, 54);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    margin: 0px 40px;
+    padding: 50px 60px 80px;
+    font-family: monospace;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.263),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.847);
+}
+
+button {
+    padding: 15px 25px;
+    background-color: dodgerblue;
+    border: 0px;
+    border-radius: 10px;
+}
